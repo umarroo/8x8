@@ -1,10 +1,9 @@
 html {
   background: #ffffff;
-  margin: auto;
 }
 td {
-  width: 60px;
-  height: 60px;
+  width: 65px;
+  height: 65px;
   background: #c5bebd;
 }
 .select {
@@ -15,8 +14,6 @@ table,
   margin: 1em auto;
   padding: 1em;
   display: block;
-  width: 500px;
-  height: 520px;
   resize: none;
   border-spacing: 2px;
 }
@@ -26,8 +23,18 @@ table,
   border: none;
   font-family: monospace;
 }
-div {
-  text-align: center;
+div,
+.btn{
+  display: flex;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.btn{
+  position: absolute;
+  top: 2em;
+  right: 10em;
 }
 button {
   padding: 0.5em;
