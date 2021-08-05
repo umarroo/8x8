@@ -1,0 +1,35 @@
+html {
+  background: #ffffff;
+  margin: auto;
+}
+td {
+  width: 60px;
+  height: 60px;
+  background: #c5bebd;
+}
+.select {
+  background: #e44b40;
+}
+table,
+.export {
+  margin: 1em auto;
+  padding: 1em;
+  display: block;
+  width: 500px;
+  height: 520px;
+  resize: none;
+  border-spacing: 2px;
+}
+.export {
+  width: 450px;
+  height: 200px;
+  border: none;
+  font-family: monospace;
+}
+div {
+  text-align: center;
+}
+button {
+  padding: 0.5em;
+  margin: 10px;
+}
